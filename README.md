@@ -1,18 +1,19 @@
+# Changes made on this fork
+Added custom path support for `Websocket`
+```yaml
+wss:// & ws://
+```
+Credits: @dharak36 for custom websocket module
+___
+
 <p align="center"><img src="https://github.com/NetchX/Netch/blob/main/Netch/Resources/Netch.png?raw=true" width="128" /></p>
 
 <div align="center">
 
-# Netch
+### Netch
 A simple proxy client
-
-[![](https://img.shields.io/badge/telegram-group-green?style=flat-square)](https://t.me/netch_group)
-[![](https://img.shields.io/badge/telegram-channel-blue?style=flat-square)](https://t.me/netch_channel)
-[![](https://img.shields.io/github/downloads/netchx/netch/total.svg?style=flat-square)](https://github.com/netchx/netch/releases)
-[![](https://img.shields.io/github/v/release/netchx/netch?style=flat-square)](https://github.com/netchx/netch/releases)
+___
 </div>
-
-## Features
-Some features may not be implemented in version 1
 
 ### Modes
 - `ProcessMode` - Use Netfilter driver to intercept process traffic
@@ -33,8 +34,5 @@ Some features may not be implemented in version 1
 - UDP NAT FullCone (Limited by your server)
 - .NET 6.0 x64
 
-## Sponsor
-<a href="https://www.jetbrains.com/?from=Netch"><img src="jetbrains.svg" alt="JetBrains" width="200"/></a>
-
 ## License
-Netch is licensed under the [GPLv3](https://raw.githubusercontent.com/netchx/netch/main/LICENSE) license
+Netch is licensed under the [GPLv3](https://raw.githubusercontent.com/Ryuxn/netch/main/LICENSE) license
